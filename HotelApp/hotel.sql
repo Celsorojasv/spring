@@ -12,7 +12,7 @@ use hotel;
 
 create table tarifa(
 	tarifaID int auto_increment primary key,
-	tarifaTotal varchar(200)not null,
+	tarifa varchar(100)not null,
         costo float not null
 	
 );
